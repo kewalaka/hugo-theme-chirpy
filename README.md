@@ -35,7 +35,7 @@
 - SEO & Performance Optimization
 
 ## Quick Start
-Use this template: [geekifan/chirpy-starter](https://github.com/geekifan/chirpy-starter)
+Use this template: [kewalaka/chirpy-starter](https://github.com/kewalaka/chirpy-starter)
 
 ## Documentation
 
@@ -50,12 +50,14 @@ to learn, inspire, and create. Any contributions you make are greatly appreciate
 
 Thanks to the theme [Chirpy Jekyll Theme][chirpy-jekyll] and all its contributors.
 
+Thanks to [geekifan](https://github.com/geekifan/) for the port to Hugo.
+
 ## License
 
 This project is published under [MIT License][license].
 
 [chirpy-jekyll]: https://github.com/cotes2020/jekyll-theme-chirpy
-[license]: https://github.com/geekifan/hugo-theme-chirpy/blob/main/LICENSE
+[license]: https://github.com/kewalaka/hugo-theme-chirpy/blob/main/LICENSE
 [hugo]: https://gohugo.io/
-[demo]: https://geekifan.github.io/chirpy-starter
-[wiki]: https://geekifan.github.io/chirpy-starter
+[demo]: https://kewalaka.github.io/chirpy-starter
+[wiki]: https://kewalaka.github.io/chirpy-starter
