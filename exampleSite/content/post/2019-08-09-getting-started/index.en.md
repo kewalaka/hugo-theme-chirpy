@@ -33,7 +33,7 @@ This approach simplifies upgrades, isolates unnecessary files, and is perfect fo
 This approach is convenient for modifying features or UI design, but presents challenges during upgrades. So don't try this unless you are familiar with Jekyll and plan to heavily modify this theme.
 
 1. Sign in to GitHub.
-2. [Fork the theme repository](https://github.com/geekifan/jekyll-theme-chirpy/fork).
+2. [Fork the theme repository](https://github.com/kewalaka/jekyll-theme-chirpy/fork).
 3. Name the new repository `<username>.github.io`, replacing `username` with your lowercase GitHub username.
 
 ## Setting up the Environment
@@ -101,7 +101,7 @@ To customize the stylesheet, copy the theme's {{< filepath src="assets/css/jekyl
 
 Static assets configuration was introduced in version `5.1.0`. The CDN of the static assets is defined in {{< filepath src="_data/origin/cors.ymll">}}. You can replace some of them based on the network conditions in the region where your website is published.
 
-If you prefer to self-host the static assets, modify {{< filepath src="config/_default/params.toml">}} and turn `self_host` on. The static files are from [geekifan/chirpy-static-assets](https://github.com/geekifan/chirpy-static-assets#readme) which is a fork of [cotes2020/chirpy-static-assets](https://github.com/cotes2020/chirpy-static-assets#readme) with minimal changes to make it work with hugo.
+If you prefer to self-host the static assets, modify {{< filepath src="config/_default/params.toml">}} and turn `self_host` on. The static files are from [kewalaka/chirpy-static-assets](https://github.com/kewalaka/chirpy-static-assets#readme) which is a fork of [cotes2020/chirpy-static-assets](https://github.com/cotes2020/chirpy-static-assets#readme) with minimal changes to make it work with hugo.
 
 ## Deployment
 
@@ -147,7 +147,7 @@ $ JEKYLL_ENV=production bundle exec jekyll b
 Unless you specified the output path, the generated site files will be placed in the {{< filepath src="_site" >}}folder of the project's root directory. Upload these files to your target server.
 
 [nodejs]: https://nodejs.org/
-[starter]: https://github.com/geekifan/chirpy-starter
+[starter]: https://github.com/kewalaka/chirpy-starter
 [pages-workflow-src]: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow
 [docker-desktop]: https://www.docker.com/products/docker-desktop/
 [docker-engine]: https://docs.docker.com/engine/install/
